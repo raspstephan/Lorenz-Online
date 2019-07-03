@@ -4,7 +4,7 @@
 
 ![animation](assets/animation.gif)
 
-This repository contains all the code for this paper:
+This repository contains all the code for this paper: https://arxiv.org/abs/1907.01351
 
 The code is (hopefully) easy to understand and runs fast. In fact, you can simply click the [Binder](https://mybinder.readthedocs.io/en/latest/index.html#) ribbon above and launche a cloud instance of the repository to play around with.
 
