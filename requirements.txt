@@ -3,4 +3,4 @@ matplotlib
 seaborn
 tqdm
 xarray
-tensorflow
+tensorflow=1.14
