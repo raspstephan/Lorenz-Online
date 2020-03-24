@@ -14,7 +14,7 @@ def in_notebook():
 import numpy as np
 import xarray as xr
 if in_notebook():
-    from tqdm import tqdm_notebook as tqdm
+    from tqdm.notebook import tqdm
 else:
     from tqdm import tqdm
 
