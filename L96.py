@@ -119,7 +119,7 @@ class L96TwoLevel(object):
     def _rhs_Y_dt(self, X, Y):
         """Compute the right hand side of the Y-ODE."""
         dYdt = (
-                       -self.b * np.roll(Y, -1) * (np.roll(Y, -2) - np.roll(Y, 1)) -
+                       -self.b * np.roll(Y, 1) * (np.roll(Y, 2) - np.roll(Y, -1)) -
                        Y + self.h / self.J * np.repeat(X, self.J)
                ) * self.c
         return self.dt * dYdt
