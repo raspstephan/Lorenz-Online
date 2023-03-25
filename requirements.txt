@@ -3,4 +3,4 @@ matplotlib
 seaborn
 tqdm
 xarray
-tensorflow==2.1
+tensorflow==2.11.1
